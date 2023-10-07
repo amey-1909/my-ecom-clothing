@@ -10,7 +10,7 @@ function Shop(){
         return state.catagories.catagories;
     })
     useEffect( ()=>{
-        fetch("http://localhost:5000/catagoriesItem").then(res=>{
+        fetch("https://capstone-backend-r0p0.onrender.com/catagoriesItem").then(res=>{
             res.json().then(catagories=>{
                dispatch(setCatagories(catagories))
             })
