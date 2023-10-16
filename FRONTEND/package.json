@@ -10,6 +10,7 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "firebase": "^9.22.2",
+    "homepage": "^1.0.0",
     "mongoose": "^7.3.0",
     "npm-sass": "^3.1.0",
     "react": "^18.2.0",

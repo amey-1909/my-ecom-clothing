@@ -4,3 +4,19 @@
     column-gap: 15px;
     row-gap: 50px;
 }
+@media screen and (max-width: 600px) {
+    .Products-Container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 15px;
+        row-gap: 50px;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1048px) {
+    .Products-Container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 15px;
+        row-gap: 50px;
+    }
+  }
